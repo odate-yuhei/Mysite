@@ -83,7 +83,7 @@ main{
     display: inline-block;
 }
 # portfolio-top{
-	position: center;
+	text-align: center;
     
 }
 .portfolio-text-top::after {
@@ -377,7 +377,7 @@ footer{
 	text-align: center;
 	padding:200px;
 	color:#FAFAFA;
-}
+    }
     
     .menu-box {
     float: right;
@@ -387,17 +387,17 @@ footer{
     border: 1px solid #FAFAFA;
     margin-top: 5px;
     margin-bottom: 5px;
-}
+    }
     .list-bar:first-child {
     margin-top: 10px;
-}
+    }
     .list-bar {
     display: block;
     width: 25px;
     height: 2px;
     margin: 5px auto;
     background-color: #FAFAFA;
-}
+    }
     .nav-box {
     display: none;
     float: none;
@@ -406,43 +406,59 @@ footer{
     border-bottom: 1px solid gray;
     text-align: center;
     background-color: rgba(0,0,0,.9);
+    }
+    .box-master{
+    margin:0 auto;
+    width:49%;
 }
     .box1{
 	display: none;
-}
+    }
 
     .box2{
+    
 	margin-right:10px;
 	width: 300px;
 	height: 250px;
-	float: left;
+	float: none;
 	background-image: url(img/websuku.png);
 	background-size:cover;
     background-position: center;
-}
+    }
     .box3{
     display: none;
-}
+    }
     .box4{
 	
 	margin-right:10px;
 	width: 300px;
 	height: 250px;
-	float: left;
+	float: none;
 	background-image: url(img/webcamp.png);
 	background-size:cover;
     background-position: center;
-}
+    }
     .box5{
         display: none;
 	
-}
+    }
     .box6{
 	
 	width: 300px;
 	height: 250px;
-	float: left;
+	float: none;
 	background-image: url(img/webcamp-mother.png);
 	background-size:cover;
-    background-position: center;
+   background-position: center;
+    }
+    .contact-box {
+    width: 100%;
+    }
+    .profile-right {
+    width: 100%;
+
+    }
+    .feature-strength2{
+     width: 80%;
+    }
 }
