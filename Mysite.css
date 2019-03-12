@@ -365,10 +365,8 @@ footer{
 
 @media screen and (max-width:767px) {  
     body{
-        width: 90%;
-        margin-left: 5px;
-        margin-right: 5px;
-    } 
+        width: 100%;
+    }
     .main-visual{
 	width:100%;
 	height:650px;
@@ -461,4 +459,11 @@ footer{
     .feature-strength2{
      width: 80%;
     }
+    .contact-left {
+    width: none;
+    text-align: center;
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
 }
